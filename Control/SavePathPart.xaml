@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Label_Monster.Control.SavePathPart"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Label_Monster.Control"
+             mc:Ignorable="d" 
+             >
+    <Grid  Background="#FF585858">
+        <Grid x:Name="Outer" Width="800" Margin="5,5,5,0"  />
+        <local:Input_Text x:Name="Text_Path"  Text="儲存資料夾路徑" T0_Width="400" Outer_Width="700" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800" Margin="0,10,0,0"/>
+        <local:Button_Use x:Name="Change_Button" HorizontalAlignment="Right" Height="62" Margin="0,70,49,0" VerticalAlignment="Top" Width="113"  
+            IconVisibility ="Collapsed" Icon_Type="ArrowRight" TextVisibility ="Visible" TextColor="#FFFFFFFF"   Outer_Height="50" Outer_Width="90"  Text= " 變更" Foreground="{x:Null}"/>
+    </Grid>
+</UserControl>

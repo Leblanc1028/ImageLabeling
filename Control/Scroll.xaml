@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="Label_Monster.Control.Scroll"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Label_Monster.Control"
+             mc:Ignorable="d"  HorizontalAlignment="Left" VerticalAlignment="Top">
+    <Grid x:Name="Grid0" Height="80" Width="250" Background="#FF202225" >
+        <Label x:Name="Row" Content="146"  VerticalAlignment="Center" Background="White" Height="5" Width="215" HorizontalContentAlignment="Center" HorizontalAlignment="Center"/>
+        <local:JustaCircle x:Name="Bar" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="80,0,0,0"/>
+
+    </Grid>
+</UserControl>

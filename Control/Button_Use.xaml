@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Label_Monster.Control.Button_Use"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Label_Monster.Control"
+             xmlns:icon="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" >
+    <Grid x:Name="GG0">
+        <Grid  x:Name="G0"  MouseMove="On_Mouse_Move" MouseLeave="On_Mouse_Leave" MouseDown="On_Mouse_Down" MouseUp="On_Mouse_Up" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid x:Name="Outer" Height="90" Width="90" Margin="5" Grid.RowSpan="2"  >
+                <Border x:Name="Border_" CornerRadius="12" Background="#FF2F3136"/>
+
+            </Grid>
+            <icon:PackIcon x:Name="packIcon" Kind="File" Width="57" Height="61" Foreground="#FFB9BBBE" VerticalAlignment="Center" HorizontalAlignment="Center"  Grid.RowSpan="2"/>
+            <TextBlock x:Name="TextContent" Text=""  HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FFB9BBBE" Height="28" Width="65" FontSize="24" FontWeight="Bold" Visibility="Collapsed"/>
+        </Grid>
+    </Grid>
+</UserControl>

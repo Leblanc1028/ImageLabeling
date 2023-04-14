@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="Label_Monster.Control.Label_Area"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Label_Monster.Control"
+             mc:Ignorable="d" 
+             >
+
+    <Grid x:Name="Grid0" Height="640" Width="640" Background="#FF454950"  MouseLeftButtonUp="On_Left_Mouse_Up" MouseMove="On_Mouse_Move" MouseRightButtonUp="On_Right_Mouse_Up" MouseWheel="Grid0_MouseWheel" MouseDown="Grid0_MouseDown" ClipToBounds="True" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Viewbox x:Name="V1" Height="640" Width="640" HorizontalAlignment="Center"  VerticalAlignment="Center" >
+            <Image x:Name="Label_Image"  Height="640" Width="640" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Image.RenderTransform>
+                    <ScaleTransform/>
+                </Image.RenderTransform>
+            </Image>
+        </Viewbox>
+        
+        <Image x:Name="Image_Label_Mask" Height="640" Width="640" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0" OpacityMask="#662F2929" />
+        <Canvas x:Name="Canvas_Label" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+
+    </Grid>
+
+
+</UserControl>
