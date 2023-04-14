@@ -12,7 +12,7 @@
 可以透過調整自己想要的透明度來觀察標註的狀況  
 # 標註過程  
 ![label](https://user-images.githubusercontent.com/125433484/232140999-5bbe5133-c97a-4568-ac54-f39e55ee8c66.png)
-可以觀察到在標註時會有輔助線觀察標註情況，最後收尾以滑鼠右鍵作結束。  
+在標註時會有輔助線觀察標註情況，最後收尾以滑鼠右鍵作結束。  
 # 放大縮小  
 可以放大縮小，使細節部分更好標註，讓標註品質提升。    
 ![enlarge](https://user-images.githubusercontent.com/125433484/232139872-541862b2-ce37-401d-878b-6ccea358f6f8.png)
